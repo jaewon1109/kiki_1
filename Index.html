@@ -13,17 +13,34 @@
     </style>
 </head>
 <body>
-    <p id="message">치치가 알려주는 레시피~</p>
+    <p id="message">지브리 작품~</p>
     <button onclick="showRandomMessage()">눌러서 확인하기</button>
 
     <script>
         function showRandomMessage() {
             const messages = [
-                "기다려 보세요.",
-                "안 돼요!",
-                "한 번 더 해보세요.",
-                "좋은 생각이에요!",
-                "다시 시도해보세요."
+                "원령공주.",
+                "이웃집 토토로.",
+                "게드 전기.",
+                "천공의 성 라퓨타.",
+                "하울의 움직이는 성.",
+                "바람계곡의 나우시카",
+                "센과 치히로의 행방불명.",
+                "붉은 돼지.",
+                "추억은 방울방울",
+                "바람이 분다.",
+                "마루 밑 아리에티.",
+                "반딧불이의 묘.",
+                "폼포코 너구리 대작전",
+                "벼랑위의 포뇨.",
+                "귀를 기울이면,",
+                "코쿠리코 언덕에서.",
+                "이웃집 야마다군.",
+                "고양이의 보은.",
+                "추억은 마니.",
+                "붉은거북.",
+                "아야와 마녀.",
+                "그대들은 어떻게 살 것인가."
             ];
             document.getElementById("message").innerText = messages[Math.floor(Math.random() * messages.length)];
         }
